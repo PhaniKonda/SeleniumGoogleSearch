@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleSearchResult">
+    <test verbose="2" preserve-order="true" name="C:/Users/satis/Desktop/test/googleSearch">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="searchKey" value="testng"></parameter>
+        <classes>
+            <class name="com.google.SearchFunctionalityTest">
+                <!--<methods>
+                    <include name="searchInput"/>
+                    <include name="validateSearchResult"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
