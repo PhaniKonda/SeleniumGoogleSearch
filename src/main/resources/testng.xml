@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GoogleSearchResult">
+    <test verbose="2" preserve-order="true" name="C:/Users/satis/Desktop/test/googleSearch">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="searchKey" value="selenium"></parameter>
+        <classes>
+            <class name="com.google.SearchFunctionalityTest"/>
+        </classes>
+    </test>
+</suite>
